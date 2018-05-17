@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.controllerProfile">
+   <children>
+      <AnchorPane layoutX="-126.0" layoutY="-187.0" prefHeight="479.0" prefWidth="561.0">
+         <children>
+            <TabPane layoutX="125.0" layoutY="186.0" prefHeight="292.0" prefWidth="435.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Informazioni">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="249.0" prefWidth="435.0">
+                           <children>
+                              <TextField fx:id="roTxt" editable="false" layoutX="38.0" layoutY="36.0" />
+                              <TextField fx:id="noTxt" editable="false" layoutX="38.0" layoutY="71.0" />
+                              <TextField fx:id="coTxt" editable="false" layoutX="38.0" layoutY="107.0" />
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="Impostazioni">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
